@@ -4,5 +4,4 @@
 4443390 Keiko Keiko 30
 4242424 Arthur Arthur 34
 2345555 Doc Doc 67
-1234567 Dominic Dominic 50
-123 Do Do 50
+123 Dom Dom 50

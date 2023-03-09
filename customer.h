@@ -10,7 +10,8 @@ class Customer{
     private:
         string customerFirst, customerLast;
         long int loyaltyNumber, numberLoyaltyPoints;
-
+        MenuItem currentOrder[MAX_SIZE_ORDER];
+        int numItemsInOrder;
     public:
         //constructors
         Customer();
@@ -27,5 +28,12 @@ class Customer{
         long int getNumberLoyaltyPoints();
         void setNumberLoyaltyPoints(long int);
 
+        MenuItem* getCurrentOrder();
+        void addItemToOrder(MenuItem*);
+        int getNumItemsInOrder();
+        void setNumItemsInOrder(int);
+        float calculateCost();
+        void displayOrder();
+        void displayCustomerInformation();
 };
 #endif
